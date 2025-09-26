@@ -129,7 +129,7 @@ function App() {
                 onClick={handleLinkClick}
                 className="text-blue-600 hover:text-blue-800 cursor-pointer underline transition-colors duration-200"
               >
-                Join me
+                Join me here
               </span>
             </p>
           </div>
