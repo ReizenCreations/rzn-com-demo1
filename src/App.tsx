@@ -75,6 +75,13 @@ function App() {
         }}
       />
       
+      {/* Off-white overlay for easier viewing */}
+      <div 
+        className={`absolute inset-0 bg-white transition-all duration-2000 delay-1000 ${
+          animationStarted ? 'opacity-20' : 'opacity-0'
+        }`}
+      />
+      
       {/* Header - Apple Books */}
       <header className="absolute top-0 left-0 w-full p-4 z-10">
         <h1 className="text-gray-900 font-bold text-lg">Reizen by Loren Roberson II</h1>
