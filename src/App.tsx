@@ -120,7 +120,7 @@ function App() {
 
           {/* Main headline */}
           <div className="text-center mb-8 max-w-4xl mx-auto">
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight mb-6">
+            <h2 className="text-3xl md:text-6xl font-bold text-gray-900 leading-tight mb-6">
               There's two truths <br />
               in this world
             </h2>
