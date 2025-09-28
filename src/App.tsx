@@ -126,7 +126,7 @@ function App() {
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
               The version that makes you the most powerful, or the version that doesn't. <br />
-              Embrace your ability to choose... <span 
+              Embrace your ability to choose... <br className="md:hidden" /><span 
                 onClick={handleLinkClick}
                 className="text-blue-600 hover:text-blue-800 cursor-pointer underline transition-colors duration-200"
               >
