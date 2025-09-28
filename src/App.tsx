@@ -66,12 +66,11 @@ function App() {
       <div 
         className={`absolute inset-0 transition-all duration-2000 delay-1000 ${
           animationStarted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-full'
-        }`}
+        } bg-cover bg-no-repeat md:bg-cover`}
         style={{
           backgroundImage: `url(${supabaseUrl}/storage/v1/object/public/RznWebAssets/reflr2.png)`,
-          backgroundSize: 'cover',
+          backgroundSize: window.innerWidth < 768 ? '80%' : 'cover',
           backgroundPosition: '50% 75%',
-          backgroundRepeat: 'no-repeat'
         }}
       />
       
