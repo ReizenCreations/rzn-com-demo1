@@ -124,7 +124,7 @@ function App() {
               There's two truths <br />
               in this world
             </h2>
-            <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-2xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
               The version that makes you the most powerful, or the version that doesn't. <br />
               Embrace your ability to choose... <span 
                 onClick={handleLinkClick}
