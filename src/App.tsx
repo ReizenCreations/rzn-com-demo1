@@ -69,8 +69,8 @@ function App() {
         } bg-cover bg-no-repeat md:bg-cover`}
         style={{
           backgroundImage: `url(${supabaseUrl}/storage/v1/object/public/RznWebAssets/reflr2.png)`,
-          backgroundSize: window.innerWidth < 768 ? '80%' : 'cover',
-          backgroundPosition: '50% 75%',
+          backgroundSize: window.innerWidth < 768 ? '95% auto' : 'cover',
+          backgroundPosition: window.innerWidth < 768 ? 'center bottom' : '50% 75%',
         }}
       />
       
