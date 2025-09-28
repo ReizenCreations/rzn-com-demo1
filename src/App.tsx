@@ -95,7 +95,7 @@ function App() {
         {/* Book Icon - starts large and centered, then moves to top */}
         <div className={`absolute transition-all duration-2000 ease-out ${
           animationStarted 
-            ? 'top-20 left-1/2 transform -translate-x-1/2 w-20 h-20' 
+            ? 'top-20 left-1/2 transform -translate-x-1/2 w-16 h-16 md:w-20 md:h-20' 
             : 'top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80'
         }`}>
           <img 
