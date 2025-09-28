@@ -68,9 +68,11 @@ function App() {
           animationStarted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-full'
         } bg-cover bg-no-repeat md:bg-cover`}
         style={{
-          backgroundImage: `url(${supabaseUrl}/storage/v1/object/public/RznWebAssets/reflr2.png)`,
-          backgroundSize: window.innerWidth < 768 ? '95% auto' : 'cover',
-          backgroundPosition: window.innerWidth < 768 ? 'center bottom' : '50% 75%',
+          backgroundImage: window.innerWidth < 768 
+            ? `url(${supabaseUrl}/storage/v1/object/public/RznWebAssets/reflrmobile1.png)`
+            : `url(${supabaseUrl}/storage/v1/object/public/RznWebAssets/reflr2.png)`,
+          backgroundSize: 'cover',
+          backgroundPosition: window.innerWidth < 768 ? 'center center' : '50% 75%',
         }}
       />
       
